@@ -1,0 +1,11 @@
+.box {
+    height: 200px;
+    width: 200px;
+    border:1px solid red;/*solid是实线的意思*/
+    overflow-y: scroll;/*表示溢出部分的展现方式，这里是可以让溢出部分滚动显示*/
+    margin-top: 50px;
+}
+
+.scroll {
+    height: 2000px;
+}
