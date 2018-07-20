@@ -16,7 +16,7 @@ var nothing = function () {
 var debounceScroll = function () {
     document.getElementById('debounce').onscroll = 
         debounce(() => {
-            console.log('节流滚动')
+            console.log('防抖滚动')
         },300)
 }
 
